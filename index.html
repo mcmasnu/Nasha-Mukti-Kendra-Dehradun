@@ -2,39 +2,72 @@
 <html lang="en">
 <head> <meta name="google-site-verification" content="u_J-eoO1f904JGIum5H_Rh3ND-nMYfI7QPlhpP9cKt0" />
     <meta charset="UTF-8">
-    <meta name="viewport" content-width="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="u_J-eoO1f904JGIum5H_Rh3ND-nMYfI7QPlhpP9cKt0" />
     <title>Nasha Mukti Kendra Dehradun – Premium Rehabilitation Center</title>
     <style>
-        body { margin:0; font-family: Arial, sans-serif; background:#f6f6f6; }
+        /* Reset & Basic */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: Arial, sans-serif; background:#f6f6f6; }
+
+        /* Header + Nav */
         header { 
             background:url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
             height:60vh; display:flex; justify-content:center; align-items:center; color:white; text-shadow:0 4px 8px rgba(0,0,0,0.5);
+            position: relative;
         }
-        header h1 { font-size: 42px; font-weight: 700; text-align:center; }
+        header h1 { font-size: 42px; text-align:center; }
 
-        section { padding: 60px 10%; }
-        h2 { font-size: 32px; margin-bottom: 15px; color:#222; }
-        p { font-size: 18px; line-height: 1.6; color:#444; }
+        nav {
+            position: fixed; top:0; width:100%; background:rgba(255,255,255,0.95); 
+            display:flex; justify-content:center; gap:30px; padding:15px 0; box-shadow:0 2px 5px rgba(0,0,0,0.1); z-index:1000;
+        }
+        nav a { text-decoration:none; color:#333; font-weight:600; transition:0.3s; }
+        nav a:hover { color:#0077cc; }
 
-        .services, .programs, .why { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:20px; }
+        /* Sections */
+        section { padding:80px 10%; }
+        h2 { font-size:32px; margin-bottom:20px; color:#222; }
+        p { font-size:18px; line-height:1.6; color:#444; }
+
+        /* Boxes */
+        .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
         .box { background:white; padding:25px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); transition:0.3s; }
         .box:hover { transform:translateY(-5px); }
 
+        /* Footer */
         footer { background:#111; color:white; text-align:center; padding:25px; }
 
+        /* WhatsApp Floating */
         .whatsapp {
             position:fixed; right:15px; bottom:15px; 
             background:#25D366; color:white; padding:12px 18px; 
             border-radius:50px; font-size:18px; text-decoration:none;
             box-shadow:0 4px 10px rgba(0,0,0,0.3);
         }
+
+        /* Section colors (optional) */
+        #about { background:#fdfdfd; }
+        #services { background:#f6f6f6; }
+        #programs { background:#fdfdfd; }
+        #why { background:#f6f6f6; }
+        #contact { background:#fdfdfd; }
     </style>
 </head>
-
 <body>
 
-<header>
-    <h1>Nasha Mukti Kendra Dehradun<br> Premium Rehabilitation & Wellness Centre</h1>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#programs">Programs</a>
+    <a href="#why">Why HLH</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+    <h1>Nasha Mukti Kendra Dehradun<br>Premium Rehabilitation & Wellness Centre</h1>
 </header>
 
 <section id="about">
@@ -42,7 +75,7 @@
     <p>
         We are a premium rehabilitation center in Dehradun dedicated to helping individuals recover 
         from drug addiction, alcoholism, substance abuse, and behavioral challenges.  
-        Our center follows holistic, scientific and compassionate treatment approaches.
+        Our center follows holistic, scientific, and compassionate treatment approaches.
         <br><br>
         Branch: <b>Hugs Life Holistic – Greater Noida</b>
     </p>
@@ -50,7 +83,7 @@
 
 <section id="services">
     <h2>Our Services</h2>
-    <div class="services">
+    <div class="grid">
         <div class="box"><h3>Detoxification</h3><p>Safe, monitored detox under medical guidance.</p></div>
         <div class="box"><h3>Psychiatric Support</h3><p>Expert mental health evaluation and treatment.</p></div>
         <div class="box"><h3>Counseling & Therapy</h3><p>1-on-1 sessions, behavioral therapy, family counseling.</p></div>
@@ -62,7 +95,7 @@
 
 <section id="programs">
     <h2>Treatment Programs</h2>
-    <div class="programs">
+    <div class="grid">
         <div class="box"><h3>Alcohol De-addiction</h3><p>Complete treatment from detox to full recovery.</p></div>
         <div class="box"><h3>Drug De-addiction</h3><p>Therapy + structured program for all substances.</p></div>
         <div class="box"><h3>Behavioral Disorders</h3><p>Anxiety, depression, anger & emotional issues.</p></div>
@@ -71,8 +104,8 @@
 </section>
 
 <section id="why">
-    <h2>Why Choose Us?</h2>
-    <div class="why">
+    <h2>Why HLH Difference / Choose Us?</h2>
+    <div class="grid">
         <div class="box"><h3>24×7 Trained Staff</h3><p>Medical + psychiatric team always available.</p></div>
         <div class="box"><h3>Premium Facility</h3><p>Calm, peaceful environment for recovery.</p></div>
         <div class="box"><h3>Holistic Healing</h3><p>Mind, body, and emotional wellbeing focus.</p></div>
