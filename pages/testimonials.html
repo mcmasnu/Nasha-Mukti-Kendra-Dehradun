@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Nasha Mukti Kendra Dehradun</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: Arial, sans-serif; background:#f6f6f6; }
+        
+        nav {
+            position: fixed; top:0; width:100%; background:rgba(255,255,255,0.95);
+            display:flex; justify-content:center; gap:30px; padding:15px 0;
+            box-shadow:0 2px 5px rgba(0,0,0,0.1); z-index:1000;
+        }
+        nav a { text-decoration:none; color:#333; font-weight:600; transition:0.3s; }
+        nav a:hover { color:#0077cc; }
+        
+        header {
+            background:url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+            height:40vh; display:flex; justify-content:center; align-items:center; color:white;
+            text-shadow:0 4px 8px rgba(0,0,0,0.5); margin-top:60px;
+        }
+        header h1 { font-size: 42px; text-align:center; }
+        
+        section { padding:60px 10%; }
+        h2 { font-size:32px; margin-bottom:30px; color:#222; }
+        
+        .testimonial-grid {
+            display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:25px;
+        }
+        
+        .testimonial {
+            background:white; padding:30px; border-radius:10px;
+            box-shadow:0 0 15px rgba(0,0,0,0.1); border-left:5px solid #ffc107;
+        }
+        .testimonial:hover { box-shadow:0 5px 20px rgba(0,0,0,0.2); }
+        
+        .stars { color:#ffc107; font-size:18px; margin-bottom:10px; }
+        .quote { font-size:16px; line-height:1.8; color:#444; font-style:italic; margin:15px 0; }
+        .author { font-weight:bold; color:#0077cc; margin-top:15px; }
+        
+        footer { background:#111; color:white; text-align:center; padding:25px; }
+        
+        .whatsapp {
+            position:fixed; right:15px; bottom:15px;
+            background:#25D366; color:white; padding:12px 18px;
+            border-radius:50px; font-size:18px; text-decoration:none;
+            box-shadow:0 4px 10px rgba(0,0,0,0.3);
+            z-index:999;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="programs.html">Programs</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<header>
+    <h1>Success Stories & Testimonials</h1>
+</header>
+
+<section>
+    <h2>Real Stories from Our Residents</h2>
+    
+    <div class="testimonial-grid">
+        <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"I came here hopeless and broken. The team didn't just treat my addiction—they helped me rediscover myself. I'm now 2 years sober!"</p>
+            <div class="author">Rajesh K. - Alcohol De-addiction Graduate</div>
+        </div>
+        
+        <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"My son was struggling for 5 years. The family counseling helped us understand and reunite. Today, he's pursuing his dreams!"</p>
+            <div class="author">Priya Sharma - Mother of Graduate</div>
+        </div>
+        
+        <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"The 90-day program saved my life. Professional counselors and peer support helped me break free. Now I'm helping others too."</p>
+            <div class="author">Amit Verma - Program Alumni</div>
+        </div>
+        
+        <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"Being treated as a human, not a patient, made all the difference. The holistic approach created a true healing environment."</p>
+            <div class="author">Vikram Singh - 3-Year Recovery Mentor</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Nasha Mukti Kendra Dehradun | All Rights Reserved
+</footer>
+
+<a class="whatsapp" href="https://wa.me/917303729913" target="_blank">WhatsApp</a>
+
+</body>
+</html>
