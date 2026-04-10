@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Hugs Life Holistic – Nasha Mukti Kendra Dehradun</title>
+<meta name="description" content="View photos of our rehabilitation centre in Dehradun — our facilities, therapy rooms, yoga spaces, and peaceful environment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-main">Hugs Life Holistic</span>
+      <span class="logo-sub">Nasha Mukti Kendra · Dehradun</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="why-hlh.html">Why HLH</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="section-tag">Our Centre</span>
+    <h1 class="page-hero-title">Gallery</h1>
+    <p class="page-hero-desc">A glimpse into our healing environment — where recovery, peace, and transformation happen every day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="gallery-intro fade-in">Our centre in Dehradun is designed to be a sanctuary — peaceful, clean, and supportive. Every space has been thoughtfully created to promote healing, safety, and wellbeing for our patients and staff.</p>
+
+    <!-- GALLERY FILTERS -->
+    <div class="gallery-filters fade-in">
+      <button class="gal-filter active" data-filter="all">All</button>
+      <button class="gal-filter" data-filter="facility">Facility</button>
+      <button class="gal-filter" data-filter="therapy">Therapy Spaces</button>
+      <button class="gal-filter" data-filter="yoga">Yoga & Wellness</button>
+      <button class="gal-filter" data-filter="nature">Surroundings</button>
+    </div>
+
+    <!-- GALLERY GRID -->
+    <!-- 
+      HOW TO ADD YOUR PHOTOS:
+      1. Create a folder called "images" inside your website folder
+      2. Add your photos to that folder
+      3. Replace the placeholder divs below with:
+         <div class="gallery-item" data-category="facility">
+           <img src="images/your-photo-name.jpg" alt="Description of photo">
+           <div class="gallery-caption">Caption text here</div>
+         </div>
+      
+      Categories available: facility / therapy / yoga / nature
+    -->
+    <div class="gallery-grid fade-in" id="galleryGrid">
+
+      <!-- PLACEHOLDER 1 -->
+      <div class="gallery-item" data-category="facility">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🏥</span>
+          <p>Photo 1</p>
+          <small>Replace with: images/photo1.jpg</small>
+        </div>
+        <div class="gallery-caption">Main Building – Nasha Mukti Kendra Dehradun</div>
+      </div>
+
+      <!-- PLACEHOLDER 2 -->
+      <div class="gallery-item gallery-item-wide" data-category="facility">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🛏️</span>
+          <p>Photo 2</p>
+          <small>Replace with: images/photo2.jpg</small>
+        </div>
+        <div class="gallery-caption">Patient Rooms – Clean, Comfortable & Private</div>
+      </div>
+
+      <!-- PLACEHOLDER 3 -->
+      <div class="gallery-item" data-category="therapy">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🧠</span>
+          <p>Photo 3</p>
+          <small>Replace with: images/photo3.jpg</small>
+        </div>
+        <div class="gallery-caption">Counselling & Therapy Room</div>
+      </div>
+
+      <!-- PLACEHOLDER 4 -->
+      <div class="gallery-item" data-category="yoga">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🧘</span>
+          <p>Photo 4</p>
+          <small>Replace with: images/photo4.jpg</small>
+        </div>
+        <div class="gallery-caption">Yoga & Meditation Hall</div>
+      </div>
+
+      <!-- PLACEHOLDER 5 -->
+      <div class="gallery-item gallery-item-tall" data-category="nature">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🌿</span>
+          <p>Photo 5</p>
+          <small>Replace with: images/photo5.jpg</small>
+        </div>
+        <div class="gallery-caption">Peaceful Natural Surroundings – Dehradun</div>
+      </div>
+
+      <!-- PLACEHOLDER 6 -->
+      <div class="gallery-item" data-category="therapy">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">👥</span>
+          <p>Photo 6</p>
+          <small>Replace with: images/photo6.jpg</small>
+        </div>
+        <div class="gallery-caption">Group Therapy & Support Sessions</div>
+      </div>
+
+      <!-- PLACEHOLDER 7 -->
+      <div class="gallery-item" data-category="yoga">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🌅</span>
+          <p>Photo 7</p>
+          <small>Replace with: images/photo7.jpg</small>
+        </div>
+        <div class="gallery-caption">Morning Yoga – Daily Wellness Routine</div>
+      </div>
+
+      <!-- PLACEHOLDER 8 -->
+      <div class="gallery-item gallery-item-wide" data-category="facility">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🍽️</span>
+          <p>Photo 8</p>
+          <small>Replace with: images/photo8.jpg</small>
+        </div>
+        <div class="gallery-caption">Dining Area – Nutritious Meals Daily</div>
+      </div>
+
+      <!-- PLACEHOLDER 9 -->
+      <div class="gallery-item" data-category="nature">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🏔️</span>
+          <p>Photo 9</p>
+          <small>Replace with: images/photo9.jpg</small>
+        </div>
+        <div class="gallery-caption">Views of the Himalayas – Dehradun</div>
+      </div>
+
+    </div>
+
+    <!-- LIGHTBOX OVERLAY -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <button class="lightbox-prev" id="lightboxPrev">‹</button>
+      <button class="lightbox-next" id="lightboxNext">›</button>
+      <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt="">
+        <div class="lightbox-placeholder" id="lightboxPlaceholder"></div>
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+      </div>
+    </div>
+
+    <!-- ADD PHOTOS GUIDE -->
+    <div class="gallery-guide fade-in">
+      <h3>📸 Adding Your Photos</h3>
+      <p>To replace the placeholders with your actual photos:</p>
+      <ol>
+        <li>Create an <code>images/</code> folder inside your website directory.</li>
+        <li>Add your photos to that folder (JPG or PNG recommended, max 2MB each).</li>
+        <li>Open <code>gallery.html</code> in a text editor.</li>
+        <li>Replace each <code>&lt;div class="gallery-placeholder"&gt;</code> block with:<br>
+          <code>&lt;img src="images/your-filename.jpg" alt="Your description"&gt;</code>
+        </li>
+        <li>Upload the updated files to your GitHub repository.</li>
+      </ol>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-content fade-in">
+      <h2>Want to Visit Our Centre?</h2>
+      <p>You're welcome to visit and see our facility in person. Contact us to arrange a tour.</p>
+      <div class="cta-actions">
+        <a href="tel:+917303729913" class="btn-white">📞 Call +91 7303729913</a>
+        <a href="contact.html" class="btn-outline-white">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Hugs Life Holistic</div>
+      <p>Nasha Mukti Kendra Dehradun<br>Premium Rehabilitation & Wellness Centre</p>
+      <p style="margin-top:0.5rem;font-size:0.85rem;opacity:0.6">Branch: Hugs Life Holistic – Greater Noida</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="why-hlh.html">Why HLH</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Programs</h4>
+      <ul>
+        <li><a href="programs.html">Alcohol De-addiction</a></li>
+        <li><a href="programs.html">Drug De-addiction</a></li>
+        <li><a href="programs.html">Behavioural Disorders</a></li>
+        <li><a href="programs.html">Teen Rehabilitation</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>📍 Dehradun, Uttarakhand</p>
+      <p>📞 <a href="tel:+917303729913">+91 7303729913</a></p>
+      <p>📧 <a href="mailto:Hugslifeholistic@gmail.com">Hugslifeholistic@gmail.com</a></p>
+      <a href="https://wa.me/917303729913" class="whatsapp-btn" target="_blank">💬 Chat on WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Nasha Mukti Kendra Dehradun | Hugs Life Holistic. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/917303729913" class="floating-wa" target="_blank" title="WhatsApp Us">💬</a>
+<script src="assets/main.js"></script>
+</body>
+</html>
